@@ -1,6 +1,7 @@
 body {
     font-size: 18px;
-    background: url("images/bg-hero-desktop.svg")
+    background: url("images/bg-hero-desktop.svg");
+    background-repeat: no-repeat;
 }
 
 .flex-container {
@@ -64,3 +65,45 @@ body {
 .img-holder img {
     max-width: 100%;
 }
+
+.section-1 {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    border: 1px solid gray;
+    box-shadow: 2px 2px 4px gray;
+    height:auto;
+    width: 80%;
+    border-radius: 12px;
+    margin-left: 160px;
+    align-items: center;
+
+}
+
+.section-1 > div {
+    margin: 60px;
+    width: 450px;
+}
+
+.grow {
+    width: 50%;
+}
+
+.grow-image {
+    width: 50%;
+}
+
+.grow-image img {
+    max-width: 100%;
+}
+
+@media screen and (max-width:550px) {
+    .grow {
+    order:1;
+           
+    }
+    .section-1 {
+        justify-content: center;
+    }
+}
+
