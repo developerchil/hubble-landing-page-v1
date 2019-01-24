@@ -6,19 +6,38 @@ body {
 .flex-container {
     display: flex;
     justify-content: space-around;
+    margin-top: 60px;
+}
+
+.logo  {
+    width: 450px;
+    padding-right: 100px;
+
 }
 
 .nav-btn {
-    padding: 14px;
+    width: 450px;
+}
+
+.nav-btn {
+    height: 45px;
     background-color: white;
     border-radius: 50px;
     width: 200px;
+    
 }
 
 .flex-container-2 {
     display: flex;
     justify-content: space-around;
     margin-top: 160px;
+    flex-wrap: wrap;
+    
+}
+
+.flex-container-2 > div {
+    margin: 60px;
+    width: 450px;
 }
 
 .info {
@@ -39,8 +58,9 @@ body {
 
 .img-holder {
     width: 50%;
+    
 }
 
 .img-holder img {
-    width: 70%;
+    max-width: 100%;
 }
