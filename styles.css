@@ -68,14 +68,14 @@ body {
 
 .section-1 {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     flex-wrap: wrap;
     border: 1px solid gray;
     box-shadow: 2px 2px 4px gray;
     height:auto;
-    max-width: 80%;
+    width: 80%;
     border-radius: 12px;
-    margin-left: 160px;
+    margin: 60px auto;
     align-items: center;
 
 }
