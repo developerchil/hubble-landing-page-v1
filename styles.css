@@ -7,26 +7,52 @@ body {
 .flex-container {
     display: flex;
     justify-content: space-around;
-    margin-top: 60px;
+    margin-top: 60px ;
+    width: 100%;
 }
 
-.logo  {
-    width: 450px;
-    padding-right: 100px;
-
+.flex-container .logo {
+    margin-right: 450px;
+    max-width: 100%;
+     
 }
 
-.nav-btn {
-    width: 450px;
-}
 
-.nav-btn {
+
+
+
+.nav-btn button{
     height: 45px;
     background-color: white;
     border-radius: 50px;
     width: 200px;
     
+    
 }
+
+@media screen and  (max-width:550px) {
+    .logo img{
+       width: 70%;  
+       margin-left: 160px;
+       
+           
+    }
+    .nav-btn button{
+        width: 70%; 
+        margin-right: 130px;
+        
+    }
+    
+}
+
+@media screen and  (max-width:550px) {
+    .flex-container {
+        margin: 60px auto;
+    }
+}
+
+
+
 
 .flex-container-2 {
     display: flex;
@@ -97,11 +123,78 @@ body {
     max-width: 100%;
 }
 
-@media screen and (max-width:550px) {
+@media screen and  (max-width:550px) {
     .grow {
     order:1;
            
     }
     
 }
+
+.section-2 {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    border: 1px solid gray;
+    box-shadow: 2px 2px 4px gray;
+    height:auto;
+    width: 80%;
+    border-radius: 12px;
+    margin: 60px auto;
+    align-items: center;
+
+}
+
+.section-2 > div {
+    margin: 60px;
+    width: 450px;
+}
+
+
+.flow-image img {
+    max-width: 100%;
+}
+
+@media screen and (max-width:550px) {
+    .conversation {
+    order:3;
+           
+    }
+    
+}
+
+
+.section-3 {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    border: 1px solid gray;
+    box-shadow: 2px 2px 4px gray;
+    height:auto;
+    width: 80%;
+    border-radius: 12px;
+    margin: 60px auto;
+    align-items: center;
+
+}
+
+.section-3 > div {
+    margin: 60px;
+    width: 450px;
+}
+
+
+.user-image img {
+    max-width: 100%;
+}
+
+@media screen and (max-width:550px) {
+    .users {
+    order:3;
+           
+    }
+    
+}
+
+
 
